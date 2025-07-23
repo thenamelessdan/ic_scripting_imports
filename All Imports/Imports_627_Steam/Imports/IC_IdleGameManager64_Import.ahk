@@ -53,6 +53,9 @@ this.game.gameInstances.Controller.userData.ModronHandler.modronSaves.GridSave :
 this.game.gameInstances.Controller.userData.ModronHandler.modronSaves.Buffs := New GameObjectStructure(this.game.gameInstances.Controller.userData.ModronHandler.modronSaves,"Dict", [0x20])
 this.game.gameInstances.Controller.userData.ModronHandler.modronSaves.Buffs._CollectionKeyType := "System.Int32"
 this.game.gameInstances.Controller.userData.ModronHandler.modronSaves.Buffs._CollectionValType := "System.Int32"
+this.game.gameInstances.Controller.userData.ModronHandler.modronSaves.TogglePreferences := New GameObjectStructure(this.game.gameInstances.Controller.userData.ModronHandler.modronSaves,"Dict", [0x38])
+this.game.gameInstances.Controller.userData.ModronHandler.modronSaves.TogglePreferences._CollectionKeyType := "System.Enum"
+this.game.gameInstances.Controller.userData.ModronHandler.modronSaves.TogglePreferences._CollectionValType := "System.Boolean"
 this.game.gameInstances.Controller.userData.ResetUpgradeHandler := New GameObjectStructure(this.game.gameInstances.Controller.userData,"Int", [0x68])
 this.game.gameInstances.Controller.userData.ResetUpgradeHandler.activeEffectsByInstance := New GameObjectStructure(this.game.gameInstances.Controller.userData.ResetUpgradeHandler,"Dict", [0x20])
 this.game.gameInstances.Controller.userData.ResetUpgradeHandler.activeEffectsByInstance._CollectionKeyType := "CrusadersGame.Defs.ResetUpgradeDef.ResetEffect"
