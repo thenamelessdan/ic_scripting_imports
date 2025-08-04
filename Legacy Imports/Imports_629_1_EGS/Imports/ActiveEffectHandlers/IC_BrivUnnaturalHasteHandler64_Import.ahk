@@ -11,6 +11,3 @@ this.BrivUnnaturalHasteHandler.effectKey.parentEffectKeyHandler.parent := New Ga
 this.BrivUnnaturalHasteHandler.effectKey.parentEffectKeyHandler.parent.def := New GameObjectStructure(this.BrivUnnaturalHasteHandler.effectKey.parentEffectKeyHandler.parent,"Int", [0x10])
 this.BrivUnnaturalHasteHandler.effectKey.parentEffectKeyHandler.parent.def.ID := New GameObjectStructure(this.BrivUnnaturalHasteHandler.effectKey.parentEffectKeyHandler.parent.def,"Int", [0x10])
 this.BrivUnnaturalHasteHandler.effectKey.parentEffectKeyHandler.parent.source := New GameObjectStructure(this.BrivUnnaturalHasteHandler.effectKey.parentEffectKeyHandler.parent,"Int", [0x18])
-
-if (!IsObject(IC_ActiveEffectKeyHandler_Class.BuildBrivUnnaturalHasteHandler))
-	MsgBox % "Please update ScriptHub to use these imports"
